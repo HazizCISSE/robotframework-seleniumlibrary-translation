@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   pull_request:
     branches: [ main ]
-  schedule:
-    - cron: '15 10 * * *'
 
 jobs:
   build:
